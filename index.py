@@ -17,7 +17,7 @@ async def on_message(message):
         return
 
     if message.content == '!help':
-        await message.channel.send("Commands: !blue-on, !blue-off, !red-on, !red-off, !yellow-on, !yellow-off, !buzz")
+        await message.channel.send("Commands: !blue-on, !blue-off, !red-on, !red-off, !yellow-on, !yellow-off")
 
     if message.content == '!blue-on':
         await message.channel.send("Blue led is turned on.")
